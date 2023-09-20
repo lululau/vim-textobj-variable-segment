@@ -15,7 +15,7 @@ function! s:select(object_type, right_boundary)
     endfor
     let end_position = getpos('.')
 
-    return ['o', start_position, end_position]
+    return ['v', start_position, end_position]
 endfunction
 
 function! s:select_a()
