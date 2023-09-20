@@ -9,8 +9,8 @@ endif
 call textobj#user#plugin('variable', {
     \ '-': {
     \     'sfile': expand('<sfile>:p'),
-    \     'select-a': 'av',  'select-a-function': 'textobj#variable_segment#select_a',
-    \     'select-i': 'iv',  'select-i-function': 'textobj#variable_segment#select_i',
+    \     'select-a': 'ao',  'select-a-function': 'textobj#variable_segment#select_a',
+    \     'select-i': 'io',  'select-i-function': 'textobj#variable_segment#select_i',
     \ }})
 
 let g:loaded_textobj_variable_segment = 1
